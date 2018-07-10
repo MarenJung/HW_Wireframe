@@ -5,7 +5,7 @@
     margin-left: 20%;
     margin-right: 20%;
 }
-
+  
 header {
     background-color: #ebebeb;
     text-align: center;
@@ -15,7 +15,7 @@ header {
     width: 960px;
     color: #777;
 }
-
+  
 nav {
     background-color: #ebebeb;
     text-align: center;
@@ -25,106 +25,98 @@ nav {
     width: 960px;
     color: #777;
 }
-
+  
 body {
     font-family: Arial, Helvetica, sans-serif;
-    font-color: #777;
+    color: #777;
     background-color: #777;
     width: 960px;
     font-size: 18px;
 }
-
-.leftSection {
-    margin-left: 20%;
-    height: 200px;
-    position: relative;
-}
-
+  
 .section {
     background-color: #ebebeb;
     text-align: center;
     display: block;
     padding: 25px;
     margin-bottom: 10px;
-    width: 495px;
-    height: 200px;
+    width: 63%;
+    height: 250px;
     color: #777;
-    z-index: 10;
+    margin-right: 20px;
+    float: left;
 }
-
+  
+.content_box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
 .article {
     text-align: center;
     background-color: #777;
     color: #ebebeb;
-    padding: 20px;
-    width: 495px;
-    height: 150px;
-    margin: 2px;
-    position: absolute;
-    top: 80px;
-    left: 100px
-    z-index: 20;
+    padding: 17px;
+    width: 600px;
+    height: 170px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    margin-left: -15px;
 }
-
-
+  
 .headings {
     color: #777;
     text-align: center;
     font-weight: bold;
-    background-color: #128049;
-    width: 491px;
-    height: 25px;
-    margin: 2px;
+    background-color: white;
+    height: 20px;
+    margin: 10px;
     padding: 20px;
-    position: absolute;
-    z-index: 30;
 }
-
+  
 .paragraph {
     color: #777;
     text-align: center;
-    position: absolute;
-    background-color: #922323;
-    width: 495px;
-    height: 25px;
+    background-color: white;
+    height: 20px;
     margin: 10px;
-    top: 10;
-    left: 40;
-    z-index: 30;
+    padding: 20px;
 }
-
+  
 .aside {
-    float: left;
+    display: block;
     background-color: #ebebeb;
     text-align: center;
-    display: block;
     padding: 25px;
     margin-bottom: 10px;
-    width: 495px;
-    height: 200px;
+    height: 250px;
     color: #777;
-
+    min-width: 35%;
+    margin-right: -50.5%;
 }
-
+  
 .clearfix::after {
-    content: "";
+    content: '';
     display: block;
     clear: both;
 }
-
+  
 .footer {
     width: 960px;
     box-align: center;
     margin-left: 20%;
     margin-right: 20%;
 }
-
+  
 footer {
     background-color: #ebebeb;
     text-align: center;
     display: block;
     padding: 50px;
-    margin-top: 20px;
+    margin-top: 10px;
     width: 960px;
     color: #777;
 }
